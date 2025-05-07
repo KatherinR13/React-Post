@@ -4,7 +4,7 @@ import {sub} from 'date-fns'
 const initialState = [
   {
     id: "1",
-    title: "Learning Redux Toolkit",
+    title: "My First React App!",
     content: "It's easy",
     date: sub(new Date(),{minutes: 10}).toISOString(),
     reactions: {
@@ -17,7 +17,7 @@ const initialState = [
   },
   {
     id: "2",
-    title: "Learning Redux Toolkit...",
+    title: "Building a Blog App",
     content: "It's easy...",
     date: sub(new Date(),{minutes: 5}).toISOString(),
     reactions: {
